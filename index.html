@@ -4,25 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="index.js" defer></script>
-  <title>Document</title>
+  <title>Party Planner v.1</title>
 </head>
 <body>
-    <h1>Parties</h1>
-    <form id="addParty">
-      <label>
-        Name
-        <input type="text" name="name" />
-      </label>
-      <label>
-        Description
-        <input type="text" name="description" />
-      </label>
-      <label>
-        Location
-        <input type="text" name="locations" />
-      </label>
-      <button>Add Party</button>
-    </form>
-    <ul id="parties"></ul>
-  </body>
-</html>
+    <h1>Party Planner v.1</h1>
+    <h2>All the parties!</h2>
+    <section id="partyList">No parties Yet:(</section>
+    <h2>Add a new party</h2>
+    <form id="partyForm">
+      <input id="name" type="text" placeholder="name">
+      <input id="description" type="text" placeholder="description">
+      <input id="date" type="datetime-local" placeholder="date">
+      <input id="location" type="text" placeholder="location">
+      <button type="submit">Submit</button>
+
+
